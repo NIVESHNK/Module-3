@@ -14,9 +14,24 @@ To write a Python program that accepts a string and removes the character at a s
 7. After the loop, return the modified string `a`.
 8. Print the final result.
 
-## 💻 Program
-Add Code Here
+## 💻 Program:
+```
+def remove(s):
+    n = int(input("Enter index to remove: "))
+    a = ""
 
-## Output
+    for i in range(len(s)):
+        if i != n:
+            a += s[i]
 
-## Result
+    return a
+
+text = input("Enter a string: ")
+print(remove(text))
+```
+## Output:
+<img width="467" height="325" alt="image" src="https://github.com/user-attachments/assets/0b778fae-c055-446e-a61d-e6752de6e975" />
+
+
+## Result:
+Thus, the Python program to accept a string and remove the character at a specified index was executed successfully.
