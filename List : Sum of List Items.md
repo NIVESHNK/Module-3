@@ -10,14 +10,16 @@ To write a Python program that calculates the **sum of all elements** in a list.
 
 ## 🧾 Program
 ```
-numbers = [10, 20, 30, 40, 50]
-
-total = sum(numbers)
-
-print("Sum of all elements:", total)
+items=[153,147,124,102]
+print(sum(items))
 ```
-## Output:
-<img width="441" height="288" alt="image" src="https://github.com/user-attachments/assets/6dc61664-a390-48d2-9d41-d9480547e2ed" />
 
-## Result:
-Thus, the Python program to calculate the sum of all elements in a list was executed successfully.
+## Output
+
+<img width="271" height="159" alt="517996650-440cdbce-81d5-40c7-94ea-7d871cd855df" src="https://github.com/user-attachments/assets/2b7f6c19-7a3c-45f2-900a-4393198be646" />
+
+## Result
+Thus the program executed successfully.
+
+
+
