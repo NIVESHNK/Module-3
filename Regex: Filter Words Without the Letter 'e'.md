@@ -15,20 +15,13 @@ To write a Python program that filters out and returns all elements from a list 
 
 ## 🧾 Program
 ```
-import re
-
-l1 = []
-items = ['goal', 'new', 'user', 'sit', 'eat', 'dinner']
-
-for i in items:
-    if not re.search(r"e", i):
-        l1.append(i)
-
-print(l1)
+items=[153,147,124,102]
+print(sum(items))
 ```
-## Output:
-<img width="421" height="137" alt="image" src="https://github.com/user-attachments/assets/9a193d19-13b6-4207-b81d-b72fde1fdd1d" />
 
+## Output
+
+<img width="527" height="178" alt="517996877-83789f2b-6760-48e1-b547-cddb8d564e94" src="https://github.com/user-attachments/assets/a0436fef-1ff5-47d2-b326-83a52f1be69f" />
 
 ## Result
-Thus, the Python program to filter and return all elements from a list that do not contain the letter 'e' using regular expressions was executed successfully.
+Thus the program executed successfully.
